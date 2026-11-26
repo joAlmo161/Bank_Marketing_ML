@@ -1,5 +1,22 @@
 # Bank Marketing Subscription Prediction Using Machine Learning
 
+## Live Demo
+
+| | Link |
+|---|---|
+| 🌐 **Live application** | **https://ml-bank-marketing.streamlit.app** |
+| 💻 **GitHub repository** | **https://github.com/joAlmo161/Bank_Marketing_ML** |
+
+**How to use the live application:** open the link in any web browser (computer, tablet or phone); nothing needs to be installed. If the app has been idle, Streamlit may show *"This app has gone to sleep"* — click **"Yes, get this app back up!"** and wait about a minute.
+1. In the **Predict a client** tab, fill in the client's information (age, job, balance, loans, contact details, previous-campaign information).
+2. Click **🔮 Predict subscription** to see **YES / NO** and the predicted probability of subscribing.
+3. The **About the project** and **Model performance** tabs explain the problem and show the real test-set results.
+
+**Run it locally instead:** install Python 3.13, then from the project folder run
+`pip install -r requirements.txt` and `streamlit run app/app.py`, and open http://localhost:8501 (details in [Section 7](#7-installation), [Section 8](#8-how-to-run-the-notebooks) and [Section 9](#9-how-to-run-the-streamlit-interface)). Stop the app with **Ctrl + C** in the terminal.
+
+---
+
 *Introduction to Machine Learning — Course Project*
 **Team:** Member A (project coordinator) · Member B (data lead) · Member C (modelling lead) · Member D (evaluation and reporting lead)
 *(Replace the placeholders with your real names here and in `contribution_log.md`.)*
