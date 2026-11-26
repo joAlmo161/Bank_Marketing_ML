@@ -1,0 +1,65 @@
+{
+  "model_name": "Gradient Boosting",
+  "threshold": 0.18276887421055066,
+  "test_metrics": {
+    "accuracy": 0.8739356408271591,
+    "precision": 0.4665032679738562,
+    "recall": 0.5396975425330813,
+    "f1": 0.5004382120946538,
+    "roc_auc": 0.8056360993497969,
+    "average_precision": 0.46922669338563827
+  },
+  "test_metrics_threshold_0.5": {
+    "accuracy": 0.8977109366360722,
+    "precision": 0.647450110864745,
+    "recall": 0.27599243856332706,
+    "f1": 0.38701126573889993,
+    "roc_auc": 0.8056360993497969,
+    "average_precision": 0.46922669338563827
+  },
+  "baseline_test_metrics": {
+    "accuracy": 0.8830034280659074,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "average_precision": 0.11699657193409267
+  },
+  "confusion_matrix": {
+    "tn": 7332,
+    "fp": 653,
+    "fn": 487,
+    "tp": 571
+  },
+  "train_resubstitution": {
+    "accuracy": 0.8882,
+    "precision": 0.519,
+    "recall": 0.6027,
+    "f1": 0.5577,
+    "roc_auc": 0.8523,
+    "average_precision": 0.6233
+  },
+  "gains": [
+    {
+      "top % of clients called": 10,
+      "% of subscribers reached": 45.4,
+      "lift vs random": 4.54
+    },
+    {
+      "top % of clients called": 20,
+      "% of subscribers reached": 62.7,
+      "lift vs random": 3.13
+    },
+    {
+      "top % of clients called": 30,
+      "% of subscribers reached": 71.0,
+      "lift vs random": 2.37
+    },
+    {
+      "top % of clients called": 50,
+      "% of subscribers reached": 83.6,
+      "lift vs random": 1.67
+    }
+  ],
+  "n_test": 9043
+}

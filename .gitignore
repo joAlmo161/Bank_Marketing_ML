@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration (never commit)
+.env
+.streamlit/secrets.toml
+
+# Archives, backups and temporary files
+*.zip
+*.bak
+*.tmp
+*.log
+~$*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Course brief (instructor's document, not part of the project deliverables)
+Machine learning project requirement.docx
+Machine learning project requirement/
+
+# Note: data/, models/, figures/ and results/ ARE committed on purpose, so that the
+# Streamlit app and the notebooks work immediately after cloning.
+
+# Kept locally but not published in this repository
+README_PROFESSOR.md
+RUN_INSTRUCTIONS.md
+reports/
+presentation/

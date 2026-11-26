@@ -1,0 +1,7 @@
+# Normalise line endings of text files; never touch binary files
+* text=auto
+*.pdf binary
+*.joblib binary
+*.png binary
+*.docx binary
+*.ipynb text eol=lf
